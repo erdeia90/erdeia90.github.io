@@ -87,5 +87,16 @@ img {
 
 }#img-1 {
     /*display: none;*/
-    visibility: hidden;
+    /*visibility: hidden;*/
+    /*position: fixed;
+    top: 10px;
+    left: 150px;*/
+}
+
+.fix{
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    text-decoration-color: crimson;
+    color: crimson;
 }
