@@ -49,15 +49,24 @@ p {
     line-height: normal;
     font-weight: lighter;
     text-align: justify;
+    margin: 10px 20px 0;
+    border: dashed 3px red;
+    padding: 10px 0 0 0;
+    border-top: solid 2px blue;
+    max-width: 75%;
+    min-height: 30%;
+
 }
 a {
     color: black;
     font-size: 15px;
 }
 img {
-    width: 200px;
-    height: 200px;
-    margin: 25px;
+    width: 15.3%;
+    /*árnyékolás létrehozása*/
+    box-shadow: 3px 3px 7px black;
+    margin: 0.5%;
+ 
 }
 .bold {
     font-weight: bold;
@@ -65,7 +74,18 @@ img {
 }
 .img-div {
     background-color: lightblue;
+    /*border-style: dotted;
+    border-width: 3px;
+    border-color: red;
+    padding: 10px 10px 10px 10px;*/
+    border: dashed 3px red;
+    padding: 10px 0 0 0;
+    
 }
 .light {
     background-color: lightcyan;
+
+}#img-1 {
+    /*display: none;*/
+    visibility: hidden;
 }
