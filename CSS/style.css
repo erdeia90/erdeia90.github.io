@@ -102,3 +102,7 @@ img {
     text-decoration-color: crimson;
     color: crimson;
 }
+html {
+    background-color: #e0e0e0;
+    background-image: url("/pic/background.jpg");
+}
